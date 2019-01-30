@@ -22,6 +22,7 @@ namespace MtpApp
             //string msg = $"Your Ans : {a} + {b} = {c}";
             //Console.WriteLine(msg);
             //Console.ReadLine();
+            //test
             int i = 0;
             Calculator calculator1 = new Calculator(true);
 
