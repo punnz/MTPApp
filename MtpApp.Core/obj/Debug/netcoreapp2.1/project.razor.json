@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Gemmyj\\Desktop\\MTPApp\\MtpApp.Core\\MtpApp.Core.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

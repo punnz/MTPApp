@@ -1,0 +1,17 @@
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.deps.json
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.dll
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.pdb
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.AssemblyInfoInputs.cache
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.AssemblyInfo.cs
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.dll
+C:\Users\Gemmyj\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.deps.json
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\bin\Debug\netcoreapp2.1\MtpApp.Core.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.csprojAssemblyReference.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.AssemblyInfoInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.AssemblyInfo.cs
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Core\obj\Debug\netcoreapp2.1\MtpApp.Core.pdb
