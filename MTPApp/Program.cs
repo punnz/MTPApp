@@ -23,59 +23,124 @@ namespace MtpApp
             //Console.WriteLine(msg);
             //Console.ReadLine();
             //test
-            int i = 0;
-            Calculator calculator1 = new Calculator(true);
+            //int i = 0;
+            //Calculator calculator1 = new Calculator(true);
 
-            Calculator calculator2 = new Calculator();
-            calculator2.SetAbs(true);
-            while (true)
+            //Calculator calculator2 = new Calculator();
+            //calculator2.SetAbs(true);
+            //while (true)
+            //{
+
+            //    string s1 = Console.ReadLine();
+
+            //    if(int.TryParse(s1,out int a))
+            //    {
+            //        if (i%2 == 0)
+            //        {
+
+            //            calculator1.Input(a);
+            //        }
+            //        else
+            //        {
+            //            calculator2.Input(a);
+            //        }
+
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //    i++;
+            //}
+
+            //int c = calculator1.GetResult();
+            //int d = calculator2.GetResult();
+
+            //string input1 = String.Join(",",calculator1.GetHistory());
+            //string input2 = String.Join(",", calculator2.GetHistory());
+            //string msg = $"Your Ans Set 1: {c} , Your Ans Set 2: {d}";
+            //Console.WriteLine(input1);
+            //Console.WriteLine(input2);
+            //Console.WriteLine(msg);
+            //Console.ReadLine();
+
+            User user = new User("Punyawat","Kanfak");
+
+            user.FirstName = "Aun";
+            Console.WriteLine(user.FirstName);
+            Console.WriteLine(user.LastName);
+            Console.WriteLine(user.FullName);
+            double a = Math.PI;
+            Console.WriteLine(a);
+
+            CustomerService customerservice = new CustomerService();
+            IEnumerable<Customer> customers = customerservice.GetAllCustomers();
+            foreach (var item in customers)
             {
-
-                string s1 = Console.ReadLine();
-               
-                if(int.TryParse(s1,out int a))
-                {
-                    if (i%2 == 0)
-                    {
-                    
-                        calculator1.Input(a);
-                    }
-                    else
-                    {
-                        calculator2.Input(a);
-                    }
-                    
-                }
-                else
-                {
-                    break;
-                }
-                i++;
+                Console.WriteLine(item.FirstName);
             }
 
-            int c = calculator1.GetResult();
-            int d = calculator2.GetResult();
+            // string msg = AunService.GetServiceName();
+            // Console.WriteLine(msg);
+            Customer customer = new Customer();
+            customer.FirstName = "Pun";
+            customer.LastName = "Yawat";
+            customer.Id = 0;
+            customer.Address = "Phitlok";
+            customerservice.CreateCustomer(customer);
 
-            string input1 = String.Join(",",calculator1.GetHistory());
-            string input2 = String.Join(",", calculator2.GetHistory());
-            string msg = $"Your Ans Set 1: {c} , Your Ans Set 2: {d}";
-            Console.WriteLine(input1);
-            Console.WriteLine(input2);
-            Console.WriteLine(msg);
+            PrintCustomer();
+            //Add
+            Customer customer2 = new Customer() { FirstName = "Aun", LastName = "Kanfak", Address = "TH" };
+            customerservice.CreateCustomer(customer2);
+
+            PrintCustomer();
+            //Find
+            Customer customer3 = customerservice.FindCustomerById(5);
+
+            if( customer3 == null)
+            {
+                Console.WriteLine($" No Customer !!");
+
+            }
+            else {
+                Console.WriteLine($"Name :  { customer3.FirstName} { customer3.LastName} ID: {customer3.Id} Address : {customer3.Address}");
+
+            }
+
+            
+            //update
+            Customer customer4 = new Customer { FirstName = "AunNaja", LastName = "JubJub",Id = 3, Address = "THhh" };
+            customerservice.UpdateCustomer(customer4);
+            
+            PrintCustomer();
+
+            //delete
+
+            customerservice.DeleteCustomer(4);
+
+            PrintCustomer();
+
+
+
+
             Console.ReadLine();
         }
 
-        static string PrintResult(List<int> l)
-        {
-            string resultmsg = string.Empty;
 
-            foreach (var item in l)
+        public static void PrintCustomer()
+        {
+            CustomerService customerservice = new CustomerService();
+            IEnumerable<Customer> customers2 = customerservice.GetAllCustomers();
+            foreach (var item in customers2)
             {
-                
+                Console.WriteLine($"Name :  { item.FirstName} { item.LastName} ID : {item.Id} Address {item.Address} ");
             }
 
-            return resultmsg;
+
+            Console.ReadLine();
         }
+       
     }
 
 

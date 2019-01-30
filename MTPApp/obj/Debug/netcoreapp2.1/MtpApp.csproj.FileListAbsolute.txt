@@ -37,3 +37,17 @@ C:\Users\Gemmyj\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.AssemblyInf
 C:\Users\Gemmyj\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.csproj.CopyComplete
 C:\Users\Gemmyj\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.dll
 C:\Users\Gemmyj\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.pdb
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.deps.json
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.runtimeconfig.json
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.runtimeconfig.dev.json
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.dll
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.pdb
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.Core.dll
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\bin\Debug\netcoreapp2.1\MtpApp.Core.pdb
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.csprojAssemblyReference.cache
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.csproj.CoreCompileInputs.cache
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.AssemblyInfoInputs.cache
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.AssemblyInfo.cs
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.csproj.CopyComplete
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.dll
+C:\Users\Notebook\Desktop\MTPApp\MtpApp\obj\Debug\netcoreapp2.1\MtpApp.pdb
