@@ -7,7 +7,7 @@ using System.Text;
 namespace MtpApp.Core
 {
 
-    public class CustomerService
+    public class CustomerService : ICustomerService
     {
         public CustomerService()
         {

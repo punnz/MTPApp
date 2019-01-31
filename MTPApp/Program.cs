@@ -64,67 +64,76 @@ namespace MtpApp
             //Console.WriteLine(msg);
             //Console.ReadLine();
 
-            User user = new User("Punyawat","Kanfak");
+            //User user = new User("Punyawat","Kanfak");
 
-            user.FirstName = "Aun";
-            Console.WriteLine(user.FirstName);
-            Console.WriteLine(user.LastName);
-            Console.WriteLine(user.FullName);
-            double a = Math.PI;
-            Console.WriteLine(a);
+            //user.FirstName = "Aun";
+            //Console.WriteLine(user.FirstName);
+            //Console.WriteLine(user.LastName);
+            //Console.WriteLine(user.FullName);
+            //double a = Math.PI;
+            //Console.WriteLine(a);
 
-            CustomerService customerservice = new CustomerService();
-            IEnumerable<Customer> customers = customerservice.GetAllCustomers();
-            foreach (var item in customers)
-            {
-                Console.WriteLine(item.FirstName);
-            }
+            //CustomerService customerservice = new CustomerService();
+            //IEnumerable<Customer> customers = customerservice.GetAllCustomers();
+            //foreach (var item in customers)
+            //{
+            //    Console.WriteLine(item.FirstName);
+            //}
 
-            // string msg = AunService.GetServiceName();
-            // Console.WriteLine(msg);
-            Customer customer = new Customer();
-            customer.FirstName = "Pun";
-            customer.LastName = "Yawat";
-            customer.Id = 0;
-            customer.Address = "Phitlok";
-            customerservice.CreateCustomer(customer);
+            //// string msg = AunService.GetServiceName();
+            //// Console.WriteLine(msg);
+            //Customer customer = new Customer();
+            //customer.FirstName = "Pun";
+            //customer.LastName = "Yawat";
+            //customer.Id = 0;
+            //customer.Address = "Phitlok";
+            //customerservice.CreateCustomer(customer);
 
-            PrintCustomer();
-            //Add
-            Customer customer2 = new Customer() { FirstName = "Aun", LastName = "Kanfak", Address = "TH" };
-            customerservice.CreateCustomer(customer2);
+            //PrintCustomer();
+            ////Add
+            //Customer customer2 = new Customer() { FirstName = "Aun", LastName = "Kanfak", Address = "TH" };
+            //customerservice.CreateCustomer(customer2);
 
-            PrintCustomer();
-            //Find
-            Customer customer3 = customerservice.FindCustomerById(5);
+            //PrintCustomer();
+            ////Find
+            //Customer customer3 = customerservice.FindCustomerById(5);
 
-            if( customer3 == null)
-            {
-                Console.WriteLine($" No Customer !!");
+            //if( customer3 == null)
+            //{
+            //    Console.WriteLine($" No Customer !!");
 
-            }
-            else {
-                Console.WriteLine($"Name :  { customer3.FirstName} { customer3.LastName} ID: {customer3.Id} Address : {customer3.Address}");
+            //}
+            //else {
+            //    Console.WriteLine($"Name :  { customer3.FirstName} { customer3.LastName} ID: {customer3.Id} Address : {customer3.Address}");
 
-            }
-
-            
-            //update
-            Customer customer4 = new Customer { FirstName = "AunNaja", LastName = "JubJub",Id = 3, Address = "THhh" };
-            customerservice.UpdateCustomer(customer4);
-            
-            PrintCustomer();
-
-            //delete
-
-            customerservice.DeleteCustomer(4);
-
-            PrintCustomer();
+            //}
 
 
+            ////update
+            //Customer customer4 = new Customer { FirstName = "AunNaja", LastName = "JubJub",Id = 3, Address = "THhh" };
+            //customerservice.UpdateCustomer(customer4);
+
+            //PrintCustomer();
+
+            ////delete
+
+            //customerservice.DeleteCustomer(4);
+
+            //PrintCustomer();
 
 
-            Console.ReadLine();
+            //MTPUser mTPUser = new MTPUser();
+            // Customer customer = (Customer)mTPUser;
+            //mTPUser.Print();
+
+            //CustomerService customerService = new CustomerService();
+            //customerService.CreateCustomer(mTPUser);
+
+            CustomerService customerService = new CustomerService();
+            IPrinter printer = new Printer(customerService);
+            printer.StartUI();
+
+            //Console.ReadLine();
         }
 
 
